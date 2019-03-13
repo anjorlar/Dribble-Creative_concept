@@ -1,0 +1,176 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+img{
+    width: 100%;
+}
+button{
+    border-radius: 20px;
+    height: 30px;
+    background-color: chocolate;
+    color: antiquewhite;
+    border: none;
+    padding: 10px 15px;
+}
+.gray{
+    background-color: rgb(235, 235, 237);
+}
+b{
+    color: white;
+    font-size: 24;
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px 10px;
+    text-align: center;
+}
+.header{
+    display: flex;
+    margin-left: 3%;
+    justify-content: space-around;
+}
+/* ul{
+    
+} */
+.header li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+.creative{
+    display: flex;
+    justify-content: space-around;
+}
+.contact{
+    padding-top: 20%;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.concept{
+    text-align: center;
+    margin: 3% 0;
+}
+.space{
+    margin: 0 8%;
+}
+.galleryone{
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 99%;
+    justify-content:space-around;
+    /* margin-bottom: 2%; */
+}
+.cone{
+    width: 33%;
+}
+.bulb{
+height: 100%;
+
+ object-fit: cover;
+}
+.banana{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+     align-content: space-between;
+}
+.effigy{
+    height: 70%;
+  
+     object-fit: cover;
+}
+.bananabulb{
+    height: 25%;    
+     object-fit: cover;
+}
+.fork{
+    width: 33%;   
+     display: flex;
+    flex-direction: column;
+     align-content: space-between;
+}
+.earpiece{
+    height: 40%;
+    object-fit: cover;
+}
+.burger{
+    height: 35%;
+     object-fit: cover;
+}
+
+.allbutton{
+    text-align: center;
+    margin: 2% 0;
+}
+.Whoweare{
+    display: flex;
+    width: 99%;
+    justify-content: center;
+}
+.conceptartist{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    height: 100%;
+    width: 48%;
+}
+.text{
+    height: 65%;
+    width: 99%;
+    padding-bottom: 20%;
+}
+.artist{
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+}
+.artistone{    
+    width: 48%;
+    object-fit: cover;
+    height: 35%;
+}
+.artisttwo{     
+    width: 48%;
+    object-fit: cover;
+    height: 35%;
+}
+.sittedpics{
+    width: 48%;   
+}
+.sitting{
+     height: 75%;
+}
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5% 0;
+}
+.digital{
+    width: 10px;
+}
+.mid li{
+    list-style: none;
+    padding: 2%;
+}
+.right{
+    border-bottom: 2px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+input{
+    border:none;
+}
+.hi button{
+    background-color:white;
+    color: black;
+}
+span strong{
+    color: white;
+    font-size: 24;
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px 10px;
+    text-align: center;
+}
