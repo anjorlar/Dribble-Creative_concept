@@ -4,10 +4,10 @@
 }
 img{
     width: 100%;
+    height: 100%;
 }
 button{
     border-radius: 20px;
-    height: 30px;
     background-color: chocolate;
     color: antiquewhite;
     border: none;
@@ -16,7 +16,7 @@ button{
 .gray{
     background-color: rgb(235, 235, 237);
 }
-b{
+.logo{
     color: white;
     font-size: 24;
     background-color: black;
@@ -29,9 +29,6 @@ b{
     margin-left: 3%;
     justify-content: space-around;
 }
-/* ul{
-    
-} */
 .header li{
     list-style: none;
     display: inline;
@@ -42,11 +39,26 @@ b{
     justify-content: space-around;
 }
 .contact{
-    padding-top: 20%;
+    padding-top: 8%;
+}
+.contact p{
+    color: chocolate;
+    padding: 9px;
+}
+.contact h1{
+    font-size: 50px;
+    padding: 7px;
 }
 .btn{
     display: flex;
     justify-content: center;
+}
+.us{
+    background-color:rgb(235, 235, 237);
+    color: black;
+    border-style: solid;
+    border-color: black;
+    margin-left: 7px;
 }
 .concept{
     text-align: center;
@@ -57,95 +69,105 @@ b{
 }
 .galleryone{
     display: flex;
-    /* flex-wrap: wrap; */
     width: 99%;
     justify-content:space-around;
     /* margin-bottom: 2%; */
 }
 .cone{
-    width: 33%;
+    width: 46%;   
 }
 .bulb{
-height: 100%;
-
- object-fit: cover;
+    height: 550px;
+    object-fit: cover;
 }
 .banana{
-    width: 33%;
+    width: 32%;
     display: flex;
     flex-direction: column;
-     align-content: space-between;
+    align-content: space-between;
 }
 .effigy{
-    height: 70%;
-  
-     object-fit: cover;
+    height: 350px;
+    object-fit: cover;
 }
 .bananabulb{
-    height: 25%;    
+    height: 150px;  
+    padding-top: 50px;  
      object-fit: cover;
 }
 .fork{
-    width: 33%;   
-     display: flex;
+    width: 18%;   
+    display: flex;
     flex-direction: column;
-     align-content: space-between;
+    align-content: space-between;
 }
 .earpiece{
-    height: 40%;
+    height: 150px;
     object-fit: cover;
+    padding-bottom: 50px;
 }
 .burger{
-    height: 35%;
-     object-fit: cover;
+    height: 350px;
+    object-fit: cover;
 }
-
 .allbutton{
     text-align: center;
-    margin: 2% 0;
+    padding: 2% 0;
 }
 .Whoweare{
     display: flex;
     width: 99%;
     justify-content: center;
+    padding: 3% 0;
 }
 .conceptartist{
     display: flex;
     flex-direction: column;
     align-content: space-between;
-    height: 100%;
     width: 48%;
 }
 .text{
-    height: 65%;
-    width: 99%;
-    padding-bottom: 20%;
+    width: 99%;    
+    padding-bottom: 87px;
+}
+.text p{
+    padding: 13px; 
+}
+.text button{
+    margin: 9px;
 }
 .artist{
     width: 99%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+.artistpics{
+    width: 45%;
+    text-align: left;
+}
+.artistpics p{
+    color: chocolate;
 }
 .artistone{    
-    width: 48%;
     object-fit: cover;
-    height: 35%;
+    height: 230px;
 }
 .artisttwo{     
-    width: 48%;
     object-fit: cover;
-    height: 35%;
+    height: 230px;   
 }
 .sittedpics{
-    width: 48%;   
+    width: 48%; 
 }
 .sitting{
-     height: 75%;
+    object-fit: cover;
+    height: 550px;
 }
 .foot{
     display: flex;
     justify-content: space-evenly;
-    margin: 5% 0;
+    padding: 25px;
 }
 .digital{
     width: 10px;
@@ -159,12 +181,17 @@ height: 100%;
     border-bottom-color: black;
     border-bottom-style: solid;
 }
-input{
+.hi{
+    display: flex;
+    justify-content: space-between;
+}
+.hi input{
     border:none;
+    color:  rgba(81, 81, 94, 0.959);
 }
 .hi button{
     background-color:white;
-    color: black;
+    color: rgba(81, 81, 94, 0.959);
 }
 span strong{
     color: white;
@@ -173,4 +200,8 @@ span strong{
     border-radius: 50%;
     padding: 10px 10px;
     text-align: center;
+}
+.copyrite{
+    padding: 10px 35%;
+    color: rgba(81, 81, 94, 0.959);
 }
