@@ -1,22 +1,26 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
-img{
+
+img {
     width: 100%;
     height: 100%;
 }
-button{
+
+button {
     border-radius: 20px;
     background-color: chocolate;
     color: antiquewhite;
     border: none;
     padding: 10px 15px;
 }
-.gray{
+
+.gray {
     background-color: rgb(235, 235, 237);
 }
-.logo{
+
+.logo {
     color: white;
     font-size: 24;
     background-color: black;
@@ -24,176 +28,216 @@ button{
     padding: 10px 10px;
     text-align: center;
 }
-.header{
+
+.header {
     display: flex;
     margin-left: 3%;
     justify-content: space-around;
 }
-.header li{
+
+.header li {
     list-style: none;
     display: inline;
     padding: 10px;
 }
-.creative{
+
+.creative {
     display: flex;
     justify-content: space-around;
 }
-.contact{
+
+.contact {
     padding-top: 8%;
 }
-.contact p{
+
+.contact p {
     color: chocolate;
     padding: 9px;
 }
-.contact h1{
+
+.contact h1 {
     font-size: 50px;
     padding: 7px;
 }
-.btn{
+
+.btn {
     display: flex;
     justify-content: center;
 }
-.us{
-    background-color:rgb(235, 235, 237);
+
+.us {
+    background-color: rgb(235, 235, 237);
     color: black;
     border-style: solid;
     border-color: black;
     margin-left: 7px;
 }
-.concept{
+
+.concept {
     text-align: center;
     margin: 3% 0;
 }
-.space{
+
+.space {
     margin: 0 8%;
 }
-.galleryone{
+
+.galleryone {
     display: flex;
     width: 99%;
-    justify-content:space-around;
+    justify-content: space-around;
     /* margin-bottom: 2%; */
 }
-.cone{
-    width: 46%;   
+
+.cone {
+    width: 35%;
 }
-.bulb{
+
+.bulb {
     height: 550px;
     object-fit: cover;
 }
-.banana{
+
+.banana {
     width: 32%;
     display: flex;
     flex-direction: column;
     align-content: space-between;
 }
-.effigy{
+
+.effigy {
     height: 350px;
     object-fit: cover;
 }
-.bananabulb{
-    height: 150px;  
-    padding-top: 50px;  
-     object-fit: cover;
+
+.bananabulb {
+    height: 150px;
+    padding-top: 50px;
+    object-fit: cover;
 }
-.fork{
-    width: 18%;   
+
+.fork {
+    width: 18%;
     display: flex;
     flex-direction: column;
     align-content: space-between;
 }
-.earpiece{
+
+.earpiece {
     height: 150px;
     object-fit: cover;
     padding-bottom: 50px;
 }
-.burger{
+
+.burger {
     height: 350px;
     object-fit: cover;
 }
-.allbutton{
+
+.allbutton {
     text-align: center;
     padding: 2% 0;
 }
-.Whoweare{
+
+.Whoweare {
     display: flex;
     width: 99%;
     justify-content: center;
     padding: 3% 0;
 }
-.conceptartist{
+
+.conceptartist {
     display: flex;
     flex-direction: column;
     align-content: space-between;
     width: 48%;
 }
-.text{
-    width: 99%;    
+
+.text {
+    width: 99%;
     padding-bottom: 87px;
 }
-.text p{
-    padding: 13px; 
+
+.text p {
+    padding: 13px;
 }
-.text button{
+
+.text button {
     margin: 9px;
 }
-.artist{
+
+.artist {
     width: 99%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.artistpics{
+
+.artistpics {
     width: 45%;
     text-align: left;
 }
-.artistpics p{
+
+.artistpics p {
     color: chocolate;
 }
-.artistone{    
+
+.artistone {
     object-fit: cover;
     height: 230px;
 }
-.artisttwo{     
+
+.artisttwo {
     object-fit: cover;
-    height: 230px;   
+    height: 230px;
 }
-.sittedpics{
-    width: 48%; 
+
+.sittedpics {
+    width: 46%;
 }
-.sitting{
+
+.sitting {
     object-fit: cover;
     height: 550px;
 }
-.foot{
+
+.foot {
     display: flex;
     justify-content: space-evenly;
     padding: 25px;
 }
-.digital{
+
+.digital {
     width: 10px;
 }
-.mid li{
+
+.mid li {
     list-style: none;
     padding: 2%;
 }
-.right{
+
+.right {
     border-bottom: 2px;
     border-bottom-color: black;
     border-bottom-style: solid;
 }
-.hi{
+
+.hi {
     display: flex;
     justify-content: space-between;
 }
-.hi input{
-    border:none;
-    color:  rgba(81, 81, 94, 0.959);
-}
-.hi button{
-    background-color:white;
+
+.hi input {
+    border: none;
     color: rgba(81, 81, 94, 0.959);
 }
-span strong{
+
+.hi button {
+    background-color: white;
+    color: rgba(81, 81, 94, 0.959);
+}
+
+span strong {
     color: white;
     font-size: 24;
     background-color: black;
@@ -201,7 +245,8 @@ span strong{
     padding: 10px 10px;
     text-align: center;
 }
-.copyrite{
+
+.copyrite {
     padding: 10px 35%;
     color: rgba(81, 81, 94, 0.959);
 }
